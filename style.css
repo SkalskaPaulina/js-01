@@ -1,8 +1,16 @@
 .logo img {
-    width: 100px;
+  width: 100px;
 }
 
 .balance-message {
-    font-size: 24px;
-    margin: 20px 0;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.logo-img {
+  width: 200px;
+}
+
+.feedback {
+  position: absolute;
 }

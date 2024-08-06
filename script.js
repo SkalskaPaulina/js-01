@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (editedExpense !== undefined) {
       editModalElement.querySelector("#edit-name").value =
-        incomes[editedExpense].name;
+        expenses[editedExpense].name;
       editModalElement.querySelector("#edit-amount").value =
-        incomes[editedExpense].amount;
+        expenses[editedExpense].amount;
     }
   });
 
@@ -53,6 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       updateTotals();
       editModal.hide();
+      editedIncome = undefined;
+      editedExpense = undefined;
     }
   });
 
